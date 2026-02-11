@@ -24,7 +24,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="scroll-mt-10 py-20 px-6 max-w-7xl mx-auto">
+    <section id="contact" className="scroll-mt-20 md:pt-20 md:mb-10 px-6 max-w-7xl mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="text-3xl md:text-5xl font-bold mb-6">

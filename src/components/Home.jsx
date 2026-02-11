@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="flex flex-col text-center pt-20 px-6 overflow-hidden justify-center items-center bg-black relative min-h-screen"
+      className="flex flex-col text-center pt-10 px-6 overflow-hidden justify-center items-center bg-black relative min-h-screen"
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-[rgb(31,242,144)] blur-[120px] opacity-20 rounded-full"></div>
       <div className="relative z-10 max-w-4xl">

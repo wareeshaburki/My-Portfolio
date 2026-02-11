@@ -105,7 +105,7 @@ const Projects = () => {
       : projectData.filter((p) => p.category === filter);
 
   return (
-    <section id="projects" className="scroll-mt-10 py-20 px-6 max-w-7xl mx-auto">
+    <section id="projects" className="scroll-mt-20 pt-10 md:pt-20 px-6 max-w-7xl mx-auto">
       <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
         <div>
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
