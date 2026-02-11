@@ -10,7 +10,7 @@ const About = () => {
         <div className="bg-[rgb(31,242,144)] h-1 w-20 rounded-full"></div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="md:col-span-2 py-8 px-10 bg-white/6 border border-white/20 rounded-3xl">
+        <div className="md:col-span-2 py-8 px-10 bg-white/6 border hover:border-[rgb(31,242,144)] transition-all duration-300 border-white/20 rounded-3xl">
           <h3 className="font-bold text-xl text-[rgb(31,242,144)]">My Story</h3>
           <p className="text-gray-400 text-lg my-3">
             I’m a developer who loves the challenge of turning a blank screen
@@ -22,13 +22,13 @@ const About = () => {
             user interfaces that feel intuitive.
           </p>
         </div>
-        <div className="flex flex-col text-center justify-center items-center py-8 px-10 bg-white/6 border border-white/20 rounded-3xl">
+        <div className="flex flex-col text-center justify-center items-center hover:border-[rgb(31,242,144)] transition-all duration-300 py-8 px-10 bg-white/6 border border-white/20 rounded-3xl">
           <h2 className="text-4xl font-bold py-2">2</h2>
           <p className="text-gray-500 font-bold uppercase text-sm">
             Years of learning and internships
           </p>
         </div>
-        <div className="flex flex-col text-center justify-center items-start py-8 px-10 bg-gradient-to-br from-[rgb(31,242,144)]/10 to-transparent border border-white/20 rounded-3xl">
+        <div className="flex flex-col hover:border-[rgb(31,242,144)] transition-all duration-300 text-center justify-center items-start py-8 px-10 bg-gradient-to-br from-[rgb(31,242,144)]/10 to-transparent border border-white/20 rounded-3xl">
           <h1 className="font-bold text-xl mb-6">Tech Stack</h1>
           <div className="flex flex-wrap gap-2">
             {[
@@ -49,7 +49,7 @@ const About = () => {
             ))}
           </div>
         </div>
-        <div className="md:col-span-2 flex flex-col text-center justify-center items-start py-8 px-10 bg-white/6 border border-white/20 rounded-3xl">
+        <div className="md:col-span-2 hover:border-[rgb(31,242,144)] transition-all duration-300 flex flex-col text-center justify-center items-start py-8 px-10 bg-white/6 border border-white/20 rounded-3xl">
           <h1 className="font-bold text-[rgb(31,242,144)] text-xl mb-6">
             What I focus on
           </h1>
