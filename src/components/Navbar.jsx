@@ -22,8 +22,8 @@ const Navbar = () => {
   ];
   return (
     <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10 max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
-      <div className="text-2xl uppercase tracking-tighter font-bold text-[rgb(31,242,144)]">
-        Wareesha<span className="text-white">.B</span>
+      <div className="text-2xl uppercase tracking-tighter font-bold text-transparent bg-clip-text bg-gradient-to-r from-[rgb(31,242,144)] to-white">
+        Wareesha Burki
       </div>
       <div className="hidden md:flex font-medium text-sm items-center gap-8">
         {navLinks.map((link) => (
