@@ -1,16 +1,63 @@
-# React + Vite
+# 🚀 Modern Developer Portfolio | Wareesha Burki
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, responsive portfolio built from scratch using **React 19**, **Vite**, and **Tailwind CSS**. This project showcases a clean neon-dark aesthetic with a focus on interactive project filtering and modern UI components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+* **Framework:** [React.js](https://reactjs.org/) (Vite)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Animations:** [Framer Motion](https://www.framer.com/motion/)
+* **Deployment:** [Netlify](https://www.netlify.com/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
+* **Dynamic Project Filtering:** Filter projects by category (Web, Java, C#) using React state.
+* **Bento Grid Layout:** Optimized "About Me" section using modern grid structures.
+* **Responsive Navigation:** Fully functional mobile menu with backdrop blur effects.
+* **Neon Aesthetic:** Custom color palette using `rgb(31,242,144)` for a tech-focused look.
+* **Optimized Performance:** Lightning-fast load times thanks to Vite's build tool.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+```text
+src/
+├── components/      # Reusable UI parts (Navbar, Footer)
+├── sections/        # Main page sections (Hero, About, Projects, Contact)
+├── assets/          # Static files (Images, Resume)
+├── App.jsx          # Main application logic
+└── index.css        # Global styles & Tailwind imports
+
+```
+## 🚀 Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/wareeshaburki/YOUR_REPO_NAME.git](https://github.com/wareeshaburki/YOUR_REPO_NAME.git)
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+
+3. **Run in development mode:**
+   ```bash
+   npm run dev
+
+4. **Build for production:**
+   ```bash
+   npm run build
+
+   ---
+
+## 🔗 Links & Contact
+* **Live Demo:** [View Live Site](https://wareesha-portfolio.netlify.app)
+* **LinkedIn:** [Wareesha Burki](https://www.linkedin.com/in/wareesha-burki-b34538317/)
+* **GitHub:** [@wareeshaburki](https://github.com/wareeshaburki)
+* **Email:** burkiwareesha@gmail.com
+
+---
+
+Developed with 💻 and ☕ by **Wareesha Burki**
