@@ -15,6 +15,12 @@ const Experience = () => {
       description: "Developed a C++ based Student Management System with features like student registration, attendance tracking, and grade management. Utilized OOP principles and file handling.",
     },
     {
+      role: "Frontend Development Intern",
+      company: "Afynix Digital",
+      duration: "February 2026 - March 2026",
+      description: "Completed a 6-week intensive Front-End internship at Afynix Digital, focusing on building high-end, responsive web applications. I successfully developed a premium E-Commerce ecosystem using Vanilla JavaScript and GSAP animations, featuring a persistent cart system and real-time product filtering.",
+    },
+    {
       role: "Full Stack Learner & Developer",
       company: "Self-Initiatives / Personal Projects",
       duration: "2024 - Present",
