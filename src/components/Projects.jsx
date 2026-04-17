@@ -95,6 +95,24 @@ const Projects = () => {
       tech: "React JS, Tailwind CSS",
       link: "https://github.com/wareeshaburki/Soban_Munir_Portfolio",
     },
+    {
+      title: "AETHER | Premium Tech Ecosystem",
+      image: "/aether.jpeg",
+      category: "Web",
+      tech: "Vanilla JS, GSAP, LocalStorage",
+      link: "https://wareeshaburki.github.io/Afynix-Internship-week-5/",
+      description:
+        "Final Capstone Project featuring advanced filtering and persistent cart logic.",
+    },
+    {
+      title: "Modern Landing Page",
+      image: "/landing.png",
+      category: "Web",
+      tech: "HTML, CSS (Flexbox/Grid)",
+      link: "https://wareeshaburki.github.io/Afynix-Internship-week-2/",
+      description:
+        "Responsive and visually polished landing page built during the initial weeks of internship.",
+    },
   ];
 
   const categories = ["All", "Web", "Java", "C#"];
@@ -105,7 +123,10 @@ const Projects = () => {
       : projectData.filter((p) => p.category === filter);
 
   return (
-    <section id="projects" className="scroll-mt-20 pt-15 md:pt-25 px-6 max-w-7xl mx-auto">
+    <section
+      id="projects"
+      className="scroll-mt-20 pt-15 md:pt-25 px-6 max-w-7xl mx-auto"
+    >
       <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
         <div>
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
@@ -139,9 +160,9 @@ const Projects = () => {
             className="group relative bg-white/5 border border-white/10 rounded-3xl overflow-hidden hover:border-[rgb(31,242,144)] transition-all"
           >
             <div className="h-48 relative overflow-hidden bg-gray-900">
-              <img 
-                src={project.image} 
-                alt={project.title} 
+              <img
+                src={project.image}
+                alt={project.title}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
