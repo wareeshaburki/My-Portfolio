@@ -97,7 +97,7 @@ const Projects = () => {
     },
     {
       title: "AETHER | Premium Tech Ecosystem",
-      image: "/aether.jpeg",
+      image: "/aether.png",
       category: "Web",
       tech: "Vanilla JS, GSAP, LocalStorage",
       link: "https://wareeshaburki.github.io/Afynix-Internship-week-5/",
